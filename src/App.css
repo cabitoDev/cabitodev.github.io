@@ -1,0 +1,42 @@
+.quote {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  min-height: 220px;
+  padding: 3rem 1.5rem;
+  border: 2px  solid;
+  border-radius: 3px;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.quote_box {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem
+}
+
+.quote_text {
+  text-align: center;
+  font: initial;
+  font-size: x-large;
+  transition: opacity 0.5s ease;
+}
+.quote_author {
+  display: flex;
+  justify-content: end;
+}
+.quote_footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.quote_social {
+  display: flex;
+  gap:1rem;
+}
+
+img {
+  width:2rem;
+  ;
+}
