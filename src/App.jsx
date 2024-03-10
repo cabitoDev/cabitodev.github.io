@@ -1,6 +1,7 @@
 import { React, useEffect, useState } from "react";
 import "./App.css";
 import { motion } from "framer-motion";
+import assets from "./assets";
 
 function App() {
   const [quote, setQuote] = useState();
@@ -49,7 +50,7 @@ function App() {
               rel="noreferrer"
             >
               <button>
-              <img type="image/svg+xml" src="/assets/twitter.svg" />
+              <img src={assets.twitterSrc} />
               </button>
             </a>
             <a
@@ -58,7 +59,7 @@ function App() {
               rel="noreferrer"
             >
               <button>
-                <img src="/assets/tumblr.svg" />
+                <img src={assets.tumblrSrc} />
               </button>
             </a>
           </div>
