@@ -49,7 +49,7 @@ function App() {
               rel="noreferrer"
             >
               <button>
-              <img type="image/svg+xml" src="src/assets/twitter.svg" />
+              <img type="image/svg+xml" src="/assets/twitter.svg" />
               </button>
             </a>
             <a
@@ -58,7 +58,7 @@ function App() {
               rel="noreferrer"
             >
               <button>
-                <img src="src/assets/tumblr.svg" />
+                <img src="/assets/tumblr.svg" />
               </button>
             </a>
           </div>
