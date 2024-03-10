@@ -28,8 +28,7 @@ body {
   flex-direction: column;
   justify-content: center;
   place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+
 }
 
 h1 {
@@ -67,4 +66,5 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+  
 }

@@ -1,13 +1,15 @@
 .quote {
   display: flex;
   flex-direction: column;
-  width: 450px;
+  max-width: 450px;
   min-height: 220px;
   padding: 3rem 1.5rem;
   border: 2px  solid;
   border-radius: 3px;
+  margin: 0 3rem;
   justify-content: space-between;
   gap: 1rem;
+  margin-top: 3rem;
 }
 
 .quote_box {
@@ -40,3 +42,18 @@ img {
   width:2rem;
   ;
 }
+
+@media (max-width: 480px) {
+  img {
+    width: 1rem;
+  }
+  .quote_footer {
+    display:flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .quote_text {
+    font-size: small;
+  }
+}
+  
