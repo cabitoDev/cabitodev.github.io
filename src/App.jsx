@@ -49,7 +49,7 @@ function App() {
               rel="noreferrer"
             >
               <button>
-              <img src="/src/assets/react.svg" />
+              <img src="/src/assets/vite.svg" />
                 <img src="/src/assets/twitter.svg" />
               </button>
             </a>
