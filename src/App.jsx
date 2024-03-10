@@ -44,7 +44,7 @@ function App() {
         <div className="quote_footer">
           <div className="quote_social">
             <a id="tweet-quote"
-              href={`https://twitter.com/intent/post?hashtags=quotes&related=freecodecamp&text="${quote}" ${author}`}
+              href={`https://twitter.com/intent/tweet?hashtags=quotes&related=freecodecamp&text="${quote}" ${author}`}
               target="_blank"
               rel="noreferrer"
             >
