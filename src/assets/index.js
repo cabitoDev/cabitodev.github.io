@@ -1,5 +1,5 @@
-import twitterSrc from './twitter'
-import tumblrSrc from './tumblr'
+import twitterSrc from './twitter.svg'
+import tumblrSrc from './tumblr.svg'
 
 const assets = {
   twitterSrc,
