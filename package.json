@@ -2,7 +2,7 @@
   "name": "quoteapp",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://cabitodev.github.io/quote-app/",
+  "homepage": "https://cabitodev.github.io/quote-aeeeeeeeeeeepp/",
   "type": "module",
   "scripts": {
     "deploy": "gh-pages -d dist",
